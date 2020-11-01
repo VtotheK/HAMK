@@ -1,19 +1,72 @@
 
 #innercontainer{
     margin : auto; 
+	padding:0;
     margin-top : 5%;
     /*background-color:blue;*/
     border-style : double;
-    border-color: blue;
+    border-color: cyan;
 }
 #header{
     margin : auto; 
+	padding:0;
     height : 20%;
-    width : 80%;
+    width : 70%;
     margin-top : 5%;
-    background-color:blue;
     border-bottom : 2px solid black;
 	display : flex;
     justify-content: center;
     align-items: flex-end;
+}
+#subheader{
+    margin : auto; 
+	padding:0;
+    height : 5%;
+    width : 70%;
+	display : flex;
+    justify-content: center;
+    background-color:red;
+}
+
+#headertext{
+	font-size:34px;
+	padding:0;
+	margin:0;
+}
+
+#subheadertext{
+	font-size:10px;
+	padding:0;
+	margin:0;
+}
+
+#logo{
+    position:absolute;
+}
+
+#bodycont{
+    margin:auto;
+    width:70%;
+    height:40%;
+    background-color:grey;
+}
+
+#infocont{
+    background-color:green;
+    width:50%;
+    height:100%;
+    float:left;
+}
+#engineercont{
+    background-color:blue;
+    width:49%;
+    height:100%;
+    float:left;
+}
+
+#separator{
+    background-color:black;
+    width:3px;
+    float:left;
+    height:100%;
 }
