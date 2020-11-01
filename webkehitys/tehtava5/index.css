@@ -1,0 +1,19 @@
+
+#innercontainer{
+    margin : auto; 
+    margin-top : 5%;
+    /*background-color:blue;*/
+    border-style : double;
+    border-color: blue;
+}
+#header{
+    margin : auto; 
+    height : 20%;
+    width : 80%;
+    margin-top : 5%;
+    background-color:blue;
+    border-bottom : 2px solid black;
+	display : flex;
+    justify-content: center;
+    align-items: flex-end;
+}

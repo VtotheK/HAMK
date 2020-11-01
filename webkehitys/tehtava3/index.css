@@ -1,0 +1,21 @@
+*{
+      font-family: "Serif";
+}
+
+body{
+    width:1000px;
+    margin:auto;
+    background-color:grey;
+}
+
+h1{
+    margin-top:35px;
+}
+
+table{
+    border: 3px solid black;
+}
+
+ul,ol{
+    background-color:lightgrey;
+}
