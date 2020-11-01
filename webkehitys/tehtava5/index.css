@@ -1,3 +1,8 @@
+#kone{
+    height:150px;
+    width:150px;
+}
+
 
 #innercontainer{
     margin : auto; 
@@ -34,6 +39,21 @@
 	margin:0;
 }
 
+#engcont1{
+    background-color:yellow;
+    width:20%;
+    float:left;
+    height:100%;
+    font-size:12px;
+}
+#engcont2{
+    background-color:pink;
+    height:100%;
+    width:29%;
+    font-size:12px;
+    float:left;
+}
+
 #subheadertext{
 	font-size:10px;
 	padding:0;
@@ -63,6 +83,8 @@
     height:100%;
     float:left;
 }
+
+
 
 #separator{
     background-color:black;
