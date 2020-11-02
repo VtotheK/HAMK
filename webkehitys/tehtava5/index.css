@@ -1,6 +1,8 @@
 #kone{
     height:150px;
     width:150px;
+    float:left;
+    margin-right:10px;
 }
 
 
@@ -8,7 +10,6 @@
     margin : auto; 
 	padding:0;
     margin-top : 5%;
-    /*background-color:blue;*/
     border-style : double;
     border-color: cyan;
 }
@@ -26,11 +27,16 @@
 #subheader{
     margin : auto; 
 	padding:0;
-    height : 5%;
+    height : 8%;
     width : 70%;
 	display : flex;
     justify-content: center;
-    background-color:red;
+}
+
+#sometext{
+ margin-top:5;
+ padding:0; 
+ font-size:14px;
 }
 
 #headertext{
@@ -40,19 +46,18 @@
 }
 
 #engcont1{
-    background-color:yellow;
     width:20%;
     float:left;
     height:100%;
     font-size:12px;
 }
 #engcont2{
-    background-color:pink;
     height:100%;
     width:29%;
     font-size:12px;
     float:left;
 }
+
 
 #subheadertext{
 	font-size:10px;
@@ -68,27 +73,27 @@
     margin:auto;
     width:70%;
     height:40%;
-    background-color:grey;
 }
 
 #infocont{
-    background-color:green;
     width:50%;
     height:100%;
     float:left;
 }
+
 #engineercont{
-    background-color:blue;
     width:49%;
     height:100%;
     float:left;
 }
 
-
-
 #separator{
-    background-color:black;
     width:3px;
     float:left;
     height:100%;
+    background-color:black;
+}
+
+.engineerlist{
+    margin-top:5;
 }
