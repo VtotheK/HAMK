@@ -7,13 +7,27 @@
 		<title>The HTML5 Herald</title>
 		<meta name="description" content="The HTML5 Herald">
 		<meta name="author" content="SitePoint">
-		<script src="js/scripts.js"></script>
-		<link rel="stylesheet" href="css/styles.css?v=1.0">
+		<script src="index.js"></script>
+		<script src="facts.js"></script>
+		<link rel="stylesheet" href="index.css">
 	</head>
 
 	<body>
 		<div id="container">
 			<div id="header">
+			</div>
+			<div class="frame" id="infoframe">
+				<div id="factbox">
+					<div id="facttext">
+						<p id="factparagraph">BLABLA</p>
+					</div>
+					<div id="btncontainer">
+						<button type="button" class="infoboxbtn" onclick="RandomFact()">Random</br>fact</button>
+					</div>
+				</div>
+			</div>
+			<div id="imgcontainer">
+				<div id="dummyimage"></div>
 			</div>
 		</div>
 	</body>
