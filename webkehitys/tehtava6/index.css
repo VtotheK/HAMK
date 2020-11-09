@@ -1,80 +1,69 @@
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-
-#container{
-	height:1000px;
+body{
+    margin: 0;
+    font-size:18px;
+    font-family: 'Lato', sans-serif;
 }
 
-.randomfactbtn:hover{
-	background-color:blue;
+p{
+    font-color:blue;
 }
 
-#header{
-	height:200px;
-	margin-left:10px;
-	margin-right:10px;
-	background-color:yellow;
-	width:auto;
+h1{
+    font-size:2.2rem;
 }
 
-.facttext{
-	margin-top:0;
-    background-color:red;
-    height:100px;
+h2{
+    font-size:1.2rem;
 }
 
-.factbox{
-    height:150px;
-    width:90%;
-    background-color:black;
-	margin:auto;
-    position:relative;
-}
-
-.sitebuttons{
-    font-size:12px;
+button{
+    background-color:blue;
+    border:solid 2px black;
+    padding:10px;
     margin:auto;
+}
+
+header{
+    height:150px;
+    background-color:red;
+    padding: 45px 0;
     text-align:center;
-    box-shadow:10px 10px 30px 8px #000000;
 }
 
-.btncontainer{
-    text-align:center;
-    display:grid;
-    height:35px;
+.container{
+    width:50%;
+    margin:0 auto;
+    border:2px solid magenta;
+    max-width:840px;
+    min-width:320px;
 }
 
-.infoframe{
-	background-color:grey;
-	width:20%;
-	border:2px blue;
-	margin-left:10px;
-	height:200px;
-	float:left;
+.innercontainer{
+    width:80%;
+    margin:0 auto;
+    border: 2px solid magenta;
 }
-
-.imgcontainer{
-	height:auto;
-}
-
-.images{
-	max-height:100%;
-	max-width:100%;
+   
+#randomtextbox{
+    height:350px;
+    padding:5px;
 }
 
 
-@media only screen and (max-width: 768px) {
-  [class*="col-"] {
-    width: 100%;
-  }
+.headertext{
+    min-width:250px;
 }
+
+.randominfo{
+    height:450px;
+    border:2px solid red;
+}
+
+.infosection{
+    padding:25px 0;
+}
+
+#randomfact{
+    
+}
+
