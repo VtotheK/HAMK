@@ -1,0 +1,10 @@
+
+
+
+function nextimg(){
+
+
+}
+function previousimg(){
+
+}
