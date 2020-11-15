@@ -11,6 +11,10 @@
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
+*{
+    box-sizing:border-box;
+}
+
 @media only screen and (max-width : 1200px){
     .randominfo{
         float:none;
@@ -115,6 +119,19 @@ img{
 
 .navbar li{
     display:inline;
+}
+
+.leaderboard{
+    height:350px;
+    float:left;
+}
+
+.gwentboard{
+}
+
+.gwentboard li{
+    font-size:1.2rem;
+    font-weight:bold;
 }
 
 .navbar a{
