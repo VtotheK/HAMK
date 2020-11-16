@@ -15,16 +15,24 @@
     box-sizing:border-box;
 }
 
-@media only screen and (max-width : 1200px){
+@media only screen and (max-width : 900px){
+
+    .gwentboard li{
+        font-size:1.4rem;
+    }
+
+    .navbar li{
+        font-size:1.2rem;
+    }
+    .leaderboard{
+        text-align:center;
+    }
     .randominfo{
         float:none;
         margin:0 auto; 
     }
-    p{
-        font-size:1rem;
-    }
     h1{
-        font-size:1rem;
+        font-size:2rem;
     }
     h2{
         font-size:1rem;
@@ -42,7 +50,6 @@
 
 body{
     margin: 0;
-    font-size:18px;
     font-family: 'Lato', sans-serif;
 }
 
@@ -75,9 +82,11 @@ header{
 }
 
 img{
-    width:100%;
-    margin:auto;
-    min-height:"350px";
+    max-width:100%;
+    max-height:100%;
+    min-height:30%;
+    min-width:30%;
+    margin:0 auto;
 }
 
 .innercontainer{
@@ -86,6 +95,10 @@ img{
     margin:0 auto;
     width:90%;
     border:2px solid magenta;
+}
+
+.buttons{
+    float:bottom;
 }
    
 #randomtextbox{
@@ -126,11 +139,8 @@ img{
     float:left;
 }
 
-.gwentboard{
-}
 
 .gwentboard li{
-    font-size:1.2rem;
     font-weight:bold;
 }
 
@@ -155,3 +165,4 @@ img{
     max-height:500px;
     border:2px solid blue;
 }
+
