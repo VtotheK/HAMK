@@ -17,6 +17,10 @@
 
 @media only screen and (max-width : 900px){
 
+    .mainpage{
+        height:180vh;
+    }
+
     .gwentboard li{
         font-size:1.4rem;
     }
@@ -46,6 +50,23 @@
         margin-right:10%;
         float:none;
     }
+}
+
+.mainpage{
+    position:relative;
+    min-height:100vh;
+}
+
+.content{
+    padding-bottom:2.5rem;
+}
+
+footer{
+    position:relative;
+    bottom:0;
+    height:50px;
+    background-color:grey;
+    width:100%;
 }
 
 body{
@@ -151,11 +172,6 @@ img{
 
 .infosection{
     padding:25px 0;
-}
-
-
-.randomfactgenerator{
-    
 }
 
 .imgcontainer{
