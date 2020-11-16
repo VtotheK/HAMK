@@ -17,6 +17,10 @@
 
 @media only screen and (max-width : 900px){
 
+    .innercontainer{
+        font-size:1.4rem;
+    }
+
     .mainpage{
         height:180vh;
     }
@@ -67,6 +71,7 @@ footer{
     height:50px;
     background-color:grey;
     width:100%;
+    margin:0;
 }
 
 body{
@@ -111,7 +116,6 @@ img{
 }
 
 .innercontainer{
-    margin-left:10px;
     height:650px;
     margin:0 auto;
     width:90%;
