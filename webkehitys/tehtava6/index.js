@@ -1,6 +1,12 @@
+window.onload = function(){
+    randomFact();
+}
+
 var currentimage = 0;
 var imagepaths = ["img/test.jpg","img/test2.jpg"];
 var curfact = 0;
+
+
 function randomFact(){
     var len = facts.length;
     var rndfact = curfact;

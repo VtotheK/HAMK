@@ -15,10 +15,15 @@
     box-sizing:border-box;
 }
 
+
+@media only screen and (min-width : 900px){
+
+}
+
 @media only screen and (max-width : 900px){
 
     .innercontainer{
-        font-size:1.8rem;
+        font-size:1.4rem;
     }
 
     .mainpage{
@@ -30,7 +35,7 @@
     }
 
     .navbar li{
-        font-size:1.2rem;
+        font-size:1rem;
     }
     .leaderboard{
         text-align:center;
@@ -45,9 +50,6 @@
     h2{
         font-size:1rem;
     }
-    /*body{
-        background-color:blue
-    }*/
     [class*="col-"]{
         width:80%;
         margin-left:10%;
@@ -61,10 +63,6 @@
     min-height:100vh;
 }
 
-.content{
-    padding-bottom:2.5rem;
-}
-
 footer{
     position:relative;
     bottom:0;
@@ -73,10 +71,15 @@ footer{
     width:100%;
     margin:0;
 }
-
+.content{
+    padding-bottom:2.5rem;
+}
 body{
     margin: 0;
     font-family: 'Lato', sans-serif;
+    background: rgb(189,195,199);
+    background: linear-gradient(180deg, rgba(189,195,199,1) 0%, rgba(44,62,80,1) 100%);
+
 }
 
 p{
@@ -94,7 +97,7 @@ h2{
 }
 
 button{
-    background-color:blue;
+    background-color:white;
     border:solid 2px black;
     padding:5px;
     margin:10px 10px 10px 10px;
@@ -102,7 +105,14 @@ button{
 
 header{
     height:150px;
-    background-color:red;
+    /*background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,255,179,1) 100%);
+    */
+    background: rgb(189,195,199);
+    background: linear-gradient(0deg, rgba(189,195,199,1) 0%, rgba(44,62,80,1) 100%);
+
+
+
     padding: 45px 0;
     text-align:center;
 }
@@ -143,16 +153,16 @@ img{
     border:2px solid red;
 }
 
-
-
 .navbar{
+    background: #bdc3c7;
+    /* background: linear-gradient(351deg, rgba(2,0,36,1) 0%, rgba(171,33,158,1) 43%, rgba(0,212,255,1) 100%);
+*/
     height:40px;
     width:100%;
     padding:0;
-    background-color:blue;
     list-style:none;
     text-align:center;
-    margin:0;
+    margin:0 auto;
 }
 
 .navbar li{
@@ -172,6 +182,8 @@ img{
 .navbar a{
     display:inline-block;
     padding:10px;
+    color:black;
+    font-size:1.2rem;
 }
 
 .infosection{
