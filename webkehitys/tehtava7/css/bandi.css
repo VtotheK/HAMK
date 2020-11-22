@@ -1,17 +1,8 @@
 @media screen and (max-width: 100px){
-    .descbox{
-        border:1px solid black;
-    }
 }
 @media screen and (max-width: 544px){
-    .descbox{
-        border:1px solid black;
-    }
 }
 @media screen and (max-width: 768px){
-    .descbox{
-        border:1px solid black;
-    }
 }
 @media screen and (max-width: 992px){
 }
@@ -23,10 +14,11 @@
 }
 
 .descbox{
+	background: rgb(244,244,244,1);
     margin:10px 0px 0px 0px;
-    background-color:red;
     min-height:110px;
 	border-radius:10px;
+	border:1px solid black;
 }
 
 .profiledesc{

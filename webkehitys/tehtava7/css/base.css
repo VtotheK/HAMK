@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+html{
+	min-height:100%;
+	position: relative;
+	background-color: white;
+}
+body{
+	background:url("../img/jaritaikatausta.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding-bottom: 60px;
+	 /*background: rgb(2,0,36);*/
+	/*background: linear-gradient(212deg, rgba(2,0,36,1) 0%, rgba(139,13,17,1) 100%); */
+
+}
+#navigationbar{
+	background: rgb(244,244,244,1);
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px black;
+}
+
+@media screen and (min-width: 100px){
+	.contentdivheader{font-size: 1.2rem;}
+	.navigationbar {height : 400px;}
+	.navbarimg{height:50px;
+				text-align:left;
+			}
+
+}
+
+@media screen and (min-width: 544px){
+	.navbarlabels{font-size: 0.82rem;}
+	.contentdivheader{font-size: 1.4rem;}
+	.navbarimg{height:50px;}
+}
+@media screen and (min-width: 768px){
+	.navbarlabels{font-size: 1.2rem;}
+	.contentdivheader{font-size: 1.8rem;}
+	.navbarimg{height:40px;}
+}
+@media screen and (min-width: 992px){
+	.navbarlabels{font-size: 1.4rem;}
+	.contentdivheader{font-size: 2.0rem;}
+	.navbarimg{height:50px;}
+}
+@media screen and (min-width: 1200px){
+	.navbarlabels{font-size: 1.6rem;}
+	.contentdivheader{font-size: 2.2rem;}
+	.navbarimg{height:60px;}
+	
+}
+
+.navbarimg{
+	margin-top:10px;
+}
+.navbarlabels{
+	font-family: 'Oswald', sans-serif;
+
+}
+
+#headerimg{
+	margin-bottom:10px;
+}
+
+.navbar-nav > .nav-item > .nav-link{
+	color:white;
+}
+
+.navbar-nav > .nav-item > .nav-link:hover{
+	color:rgba(139,13,17,1);
+
+}
+
+.contentdiv{
+	background-color:rgba(244, 244, 244,1);
+	border:1px solid black;
+	border-radius: 5px;
+	box-shadow: 5px 5px 10px black;
+	color: black;
+	font-family: 'Oswald', sans-serif;
+	padding-bottom: 1rem;
+}
+.contentdivheader{
+	font-family: 'Cabin', sans-serif;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+}
+#stickyfooter{
+	border-top: 1px solid gray;
+	background-color: black;
+	bottom:0;
+	position: absolute;
+	width: 100%
+}
+#footertext{
+	color:grey;
+}
+
