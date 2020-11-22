@@ -1,0 +1,34 @@
+@media screen and (max-width: 100px){
+    .descbox{
+        border:1px solid black;
+    }
+}
+@media screen and (max-width: 544px){
+    .descbox{
+        border:1px solid black;
+    }
+}
+@media screen and (max-width: 768px){
+    .descbox{
+        border:1px solid black;
+    }
+}
+@media screen and (max-width: 992px){
+}
+@media screen and (max-width: 1200px){
+}
+.profilepic{
+    float:left;
+    margin:5px 0px 10px 5px;
+}
+
+.descbox{
+    margin:10px 0px 0px 0px;
+    background-color:red;
+    min-height:110px;
+	border-radius:10px;
+}
+
+.profiledesc{
+    margin:10px 0px 0px 120px;
+}
