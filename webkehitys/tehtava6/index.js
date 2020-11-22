@@ -3,7 +3,7 @@ window.onload = function(){
 }
 
 var currentimage = 0;
-var imagepaths = ["img/test.jpg","img/test2.jpg"];
+var imagepaths = ["img/Kuva1.jpg","img/Kuva2.jpg","img/Kuva3.jpg","img/Kuva4.jpg","img/Kuva5.jpg","img/Kuva6.jpg","img/Kuva7.jpg","img/Kuva8.jpg"];
 var curfact = 0;
 
 
