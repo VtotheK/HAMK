@@ -24,8 +24,6 @@ body{
 }
 #navigationbar{
 	background: rgb(244,244,244,1);
-	border-radius: 10px;
-	box-shadow: 5px 5px 10px black;
 }
 
 @media screen and (min-width: 100px){
@@ -57,10 +55,6 @@ body{
 	.navbarimg{height:60px;}
 }
 
-
-.navbarimg{
-	margin-top:10px;
-}
 .navbarlabels{
 	font-family: 'Oswald', sans-serif;
 
@@ -71,19 +65,34 @@ body{
 }
 
 .navbar-nav > .nav-item > .nav-link{
-	color:white;
+	color:black;
+}
+
+.navbar-toggler-icon{
+	height:2.5em;
+	width:2.5em;
+}
+
+.kurwa{
+	max-height:50px;
+	position: absolute;
+	top:5px;
+	left:5px;
 }
 
 .navbar-nav > .nav-item > .nav-link:hover{
 	color:rgba(139,13,17,1);
+}
 
+.navbar-toggler-icon{
+	background-color: #85144b;
+	border-radius: 2px;
 }
 
 .contentdiv{
 	background-color:rgba(244, 244, 244,1);
 	border:1px solid black;
 	border-radius: 5px;
-	box-shadow: 5px 5px 10px black;
 	color: black;
 	font-family: 'Oswald', sans-serif;
 	padding-bottom: 1rem;
