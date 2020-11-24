@@ -6,14 +6,17 @@
 
 
 html{
-	min-height:100%;
+	min-height:100vh;
 	position: relative;
 	background-color: white;
 }
 body{
-	background:url("../img/jaritaikatausta.jpg");
+	/*background:url("../img/jaritaikatausta.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	*/
+	background-color: #85144b;
+	min-height:100vh;
 	padding-bottom: 60px;
 	 /*background: rgb(2,0,36);*/
 	/*background: linear-gradient(212deg, rgba(2,0,36,1) 0%, rgba(139,13,17,1) 100%); */
@@ -31,11 +34,10 @@ body{
 	.navbarimg{height:50px;
 				text-align:left;
 			}
-
 }
 
 @media screen and (min-width: 544px){
-	.navbarlabels{font-size: 0.82rem;}
+	.navbarlabels{font-size: 1rem;}
 	.contentdivheader{font-size: 1.4rem;}
 	.navbarimg{height:50px;}
 }
@@ -53,8 +55,8 @@ body{
 	.navbarlabels{font-size: 1.6rem;}
 	.contentdivheader{font-size: 2.2rem;}
 	.navbarimg{height:60px;}
-	
 }
+
 
 .navbarimg{
 	margin-top:10px;

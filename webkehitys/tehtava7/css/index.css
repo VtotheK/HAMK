@@ -1,3 +1,7 @@
+@media screen and (min-width: 100px){
+	.spotifyplayer{width:80%; }
+}
+
 .spotifycontainer{
 	text-align:center;
 	background:url("../img/concert_stage_wallpaper_018web.jpg");
