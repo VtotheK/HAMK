@@ -18,6 +18,7 @@ body{
 	background-color: #85144b;
 	min-height:100vh;
 	padding-bottom: 60px;
+	border:5px solid white;
 	 /*background: rgb(2,0,36);*/
 	/*background: linear-gradient(212deg, rgba(2,0,36,1) 0%, rgba(139,13,17,1) 100%); */
 
@@ -52,7 +53,16 @@ body{
 @media screen and (min-width: 1200px){
 	.navbarlabels{font-size: 1.6rem;}
 	.contentdivheader{font-size: 2.2rem;}
-	.navbarimg{height:60px;}
+	.navbarimg{height:60px;}	
+}
+
+@media screen and (max-width:992px){
+	.navbandlogo{
+		max-height:50px;
+		position: absolute;
+		top:5px;
+		left:5px;
+	}
 }
 
 .navbarlabels{
@@ -61,6 +71,7 @@ body{
 }
 
 #headerimg{
+	margin-top:10px;
 	margin-bottom:10px;
 }
 
@@ -68,17 +79,6 @@ body{
 	color:black;
 }
 
-.navbar-toggler-icon{
-	height:2.5em;
-	width:2.5em;
-}
-
-.kurwa{
-	max-height:50px;
-	position: absolute;
-	top:5px;
-	left:5px;
-}
 
 .navbar-nav > .nav-item > .nav-link:hover{
 	color:rgba(139,13,17,1);
@@ -87,8 +87,9 @@ body{
 .navbar-toggler-icon{
 	background-color: #85144b;
 	border-radius: 2px;
+	height:2em;
+	width:2em;
 }
-
 .contentdiv{
 	background-color:rgba(244, 244, 244,1);
 	border:1px solid black;
@@ -99,18 +100,21 @@ body{
 }
 .contentdivheader{
 	font-family: 'Cabin', sans-serif;
-	color: white;
+	color: black;
 	text-align: center;
 	font-weight: bold;
 }
 #stickyfooter{
-	border-top: 1px solid gray;
-	background-color: black;
+	background-color: white;
 	bottom:0;
+	left:0;
 	position: absolute;
-	width: 100%
+	width: 100%;
 }
 #footertext{
-	color:grey;
+	color:black;
 }
 
+.navbandlogo{
+	max-height:50px;
+}
