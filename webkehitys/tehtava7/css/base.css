@@ -4,6 +4,17 @@
     box-sizing:border-box;
 }
 
+@font-face {
+    font-family: "Cuprum";
+    src: url("../fonts/Cuprum/static/Cuprum-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto/static/RobotoSlab-Regular.ttf");
+}
+
+
 
 html{
 	min-height:100vh;
@@ -14,14 +25,29 @@ body{
 	/*background:url("../img/jaritaikatausta.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+		background-color: #85144b;
 	*/
-	background-color: #85144b;
+	background: rgb(247,45,45);
+	background: linear-gradient(150deg, rgba(247,45,45,1) 0%, rgba(32,214,251,1) 100%);
+	background-size:400% 400%;
 	min-height:100vh;
 	padding-bottom: 60px;
-	border:5px solid white;
+	animation: gradient 30s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+
 	 /*background: rgb(2,0,36);*/
 	/*background: linear-gradient(212deg, rgba(2,0,36,1) 0%, rgba(139,13,17,1) 100%); */
-
 }
 #navigationbar{
 	background: rgb(244,244,244,1);
@@ -41,22 +67,40 @@ body{
 	.navbarimg{height:50px;}
 }
 @media screen and (min-width: 768px){
-	.navbarlabels{font-size: 1.2rem;}
-	.contentdivheader{font-size: 1.8rem;}
-	.navbarimg{height:40px;}
-}
-@media screen and (min-width: 992px){
-	.navbarlabels{font-size: 1.4rem;}
-	.contentdivheader{font-size: 2.0rem;}
-	.navbarimg{height:50px;}
-}
-@media screen and (min-width: 1200px){
 	.navbarlabels{font-size: 1.6rem;}
 	.contentdivheader{font-size: 2.2rem;}
+	.navbarimg{height:40px;}
+	body{
+		border-left:5rem solid white;
+		border-right:5rem  solid white;
+		border-bottom:2rem solid white;
+		}
+}
+@media screen and (min-width: 992px){
+	.navbar.navbar-default .navbar-nav{
+		border:5px solid black;
+	}
+	.navbarimg{height:50px;}
+	body{
+	border-left:3rem solid white;
+	border-right:3rem  solid white;
+	border-bottom:2rem solid white;
+	}
+	#collapsedlogo{
+		display:none;
+	}
+}
+@media screen and (min-width: 1200px){
+
 	.navbarimg{height:60px;}	
+	body{
+		border-left:5rem solid white;
+		border-right:5rem  solid white;
+		border-bottom:2rem solid white;
+		}
 }
 
-@media screen and (max-width:992px){
+@media screen and (max-width:991px){
 	.navbandlogo{
 		max-height:50px;
 		position: absolute;
@@ -92,10 +136,10 @@ body{
 }
 .contentdiv{
 	background-color:rgba(244, 244, 244,1);
-	border:1px solid black;
+	border:1px solid black; 
 	border-radius: 5px;
 	color: black;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	padding-bottom: 1rem;
 }
 .contentdivheader{
@@ -103,6 +147,7 @@ body{
 	color: black;
 	text-align: center;
 	font-weight: bold;
+	margin-top:5px;
 }
 #stickyfooter{
 	background-color: white;
@@ -115,6 +160,16 @@ body{
 	color:black;
 }
 
+.footerimgs
+{
+	max-height:42px;
+	margin:4px;
+}
+
 .navbandlogo{
 	max-height:50px;
+}
+
+#mainnav{
+	border:5px solid black;
 }

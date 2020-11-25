@@ -7,10 +7,10 @@
 		<title>Jari ja taika</title>
 		<meta name="description" content="Jari ja taika">
 		<meta name="author" content="Ville Keituri">
-		<meta name="site" content="BellOne">
+		<meta name="site" content="Jari ja taika">
 		<meta name="keywords" content="jQuery,CSS,HTML,JS,Bootstrap">
 		<meta name="viewport" content="width=device-width,initial-scale=1"/>
-		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="  sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -25,33 +25,30 @@
 	</head>
 	<body>
 		<nav class="navbar navbar-dark navbar-expand-lg bg-light sticky-top" id="navigationbar">
-			<a href="" class="navbar-brand">Brand</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav">
+			<a href="" class="navbar-brand"><img src="img/jarijataikalogo.png" class="navbandlogo" id="collapsedlogo"/></a>
+			<button class="navbar-toggler" type="button"  data-toggle="collapse" data-target="#mainNav">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="navbar-collapse collapse w-100" id="mainNav">
-
 				<ul class="navbar-nav w-100 justify-content-center" id="navElements">
 					<li class="nav-item">
-						<a href="#" class="nav-link">Etusivu</a>
+						<a href="#" class="nav-link navbarlabels">Etusivu</a>
 					</li>
 					<li class="nav-item">
-						<a href="#" class="nav-link">Bändi</a>
+						<a href="bandi.html" class="nav-link navbarlabels">Bändi</a>
 					</li>
 					<li class="nav-item">
-						<a href="#" class="nav-link">Ohjelmisto</a>
+						<a href="#" class="nav-link navbarlabels">Ohjelmisto</a>
 					</li>
-					<li>
-						<a href=""><img src="img/jarijataikalogo.png" class="navbandlogo"/></a>
+					<a href="" class="navbar-brand"><img src="img/jarijataikalogo.png" class="navbandlogo"/></a>
+					<li class="nav-item">
+						<a href="#" class="nav-link navbarlabels">Galleria</a>
 					</li>
 					<li class="nav-item">
-						<a href="#" class="nav-link">Galleria</a>
+						<a href="historia.html" class="nav-link navbarlabels">Historia</a>
 					</li>
 					<li class="nav-item">
-						<a href="#" class="nav-link">Historia</a>
-					</li>
-					<li class="nav-item">
-						<a href="#" class="nav-link">Yhteystiedot</a>
+						<a href="#" class="nav-link navbarlabels">Yhteystiedot</a>
 					</li>
 				</ul>
 			</div>
@@ -76,22 +73,43 @@
 		</div>
 		<div class="container">
 			<div class="row m3 mx-auto">
-				<div class="col-md-6 col-sm-12 col-lg-5 col-xl-4 contentdiv spotifycontainer">
+				<div class="col-md-4 col-sm-12 col-lg-5 col-xl-4 contentdiv spotifycontainer">
 					<iframe class="spotifyplayer" src="https://open.spotify.com/embed/track/0e7ipj03S05BNilyu5bRzt" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+				</div>
+				<div class="col-md-1 col-sm-0 col-lg-1 col-xl-1">
+				</div>
+				<div class="col-md-7 col-sm-12 col-lg-6 col-xl-7 contentdiv">
+					<h4 class="contentdivheader">Tilaa meidät soittamaan juhliisi!</h4>
+					Voit tilata meidät esimerkiksi:
+					<ul style="margin-left:15px;">
+						<li>Tanssilavoille</li>
+						<li>Kesäjuhliin</li>
+						<li>Häihin</li>
+						<li>Pikkujouluihin ja peijaisiin</li>
+						<li>Ravintoloihin ja terasseille</li>
+						<li>Synttäreille</li>
+					</ul>
+Lisäksi tulemme minne tahansa, missä kaivataan musiikkia piristämään menoa tai ylläpitämään leppoisaa tunnelmaa. Ota siis yhteyttä ja kysy tarjousta!
+Keikkailemme pääasiassa Turku-Tampere-Helsinki -akselilla, mutta kannattaa kysyä tanssiorkesteriamme keikalle kauemmaskin. Iloinen ja tarttuva meininkimme toimii pohjoisemmassakin. Ota <a href="yhteystiedot.html>">yhteyttä</a> ja pyydä tarjous keikasta.
 				</div>
 			</div>
 		</div>
+
 		<footer id="stickyfooter">
 			<div class="container text-center">
 				<div class="row">
-					<div class="col-12">
-						<div>
-							<h7 id="footertext">Sivut tehnyt:
-							<a href="https://github.com/VtotheK/">
-								<img style="max-height:30px" src="img/GitHub-Mark-32px.png">
-							</a>
-							</h7>
-						</div>
+					<div class="col-12 justify-content-center">
+						<a href="https://fi-fi.facebook.com/JariTaika-191704827574713/">
+							<img class="footerimgs" src="img/facebook.png"/>
+						</a>
+						<a href="#">
+							<img class="footerimgs" src="img/twitter.png"/>
+						</a>
+						<a href="https://github.com/VtotheK/">
+							<img class="footerimgs" src="img/GitHub-Mark-64px.png">
+						</a>
+						</h7>
+						
 					</div>
 				</div>
 			</div>
