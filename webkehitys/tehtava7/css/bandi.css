@@ -14,11 +14,11 @@
 }
 
 .descbox{
-	background: rgb(244,244,244,1);
+	background: rgb(255, 255, 255,1);
     margin:10px 0px 0px 0px;
     min-height:110px;
-	border-radius:10px;
-	border:1px solid black;
+    box-shadow: 5px 10px 20px black;
+    padding-bottom: 10px;
 }
 
 .profiledesc{

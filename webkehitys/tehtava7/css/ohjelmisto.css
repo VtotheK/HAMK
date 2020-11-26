@@ -1,0 +1,10 @@
+.musicbuttons{
+    font-size: 1.2rem;
+    margin:10px 10px 10px 10px;
+    font-weight:bold;
+}
+
+.musicchoose > div > a:hover{
+    font-size:20px;
+    position:absolute;
+}

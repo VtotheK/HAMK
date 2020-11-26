@@ -1,3 +1,7 @@
+div {
+	font-size-adjust: 0.4;
+  }
+
 *{
     margin:0;
     padding:0;
@@ -13,7 +17,10 @@
     font-family: "Roboto";
     src: url("../fonts/Roboto/static/RobotoSlab-Regular.ttf");
 }
-
+@font-face {
+    font-family: "Castoro";
+    src: url("../fonts/Castoro/Castoro-Regular.ttf");
+}
 
 
 html{
@@ -62,12 +69,12 @@ body{
 }
 
 @media screen and (min-width: 544px){
-	.navbarlabels{font-size: 1rem;}
+	.navbarlabels{font-size: 1.4rem;}
 	.contentdivheader{font-size: 1.4rem;}
 	.navbarimg{height:50px;}
 }
 @media screen and (min-width: 768px){
-	.navbarlabels{font-size: 1.6rem;}
+	.navbarlabels{font-size: 1.4rem;}
 	.contentdivheader{font-size: 2.2rem;}
 	.navbarimg{height:40px;}
 	body{
@@ -76,26 +83,32 @@ body{
 		border-bottom:2rem solid white;
 		}
 }
+
 @media screen and (min-width: 992px){
-	.navbar.navbar-default .navbar-nav{
+	/*.navbar.navbar-default .navbar-nav{
 		border:5px solid black;
 	}
-	.navbarimg{height:50px;}
-	body{
-	border-left:3rem solid white;
-	border-right:3rem  solid white;
-	border-bottom:2rem solid white;
+*/
+	.navbar-nav{
+		margin-left: -1em;
 	}
 	#collapsedlogo{
 		display:none;
+}
+	.navbarimg{height:50px;}
+	body{
+	border-left:10rem solid white;
+	border-right:10rem  solid white;
+	border-bottom:2rem solid white;
 	}
+
 }
 @media screen and (min-width: 1200px){
 
 	.navbarimg{height:60px;}	
 	body{
-		border-left:5rem solid white;
-		border-right:5rem  solid white;
+		border-left:15rem solid white;
+		border-right:15rem  solid white;
 		border-bottom:2rem solid white;
 		}
 }
@@ -107,6 +120,18 @@ body{
 		top:5px;
 		left:5px;
 	}
+
+	.navbar-nav{
+		background: rgb(247,45,45);
+		background: linear-gradient(150deg, rgba(247,45,45,1) 0%, rgba(32,214,251,1) 100%);
+		background-size:400% 400%;
+		animation: gradient 30s ease infinite;
+		width:100%;
+	}
+	.navbar-nav > li{
+		margin-left:20px;
+	}
+
 }
 
 .navbarlabels{
@@ -117,6 +142,7 @@ body{
 #headerimg{
 	margin-top:10px;
 	margin-bottom:10px;
+	box-shadow: 0px 10px 25px black;
 }
 
 .navbar-nav > .nav-item > .nav-link{
@@ -134,13 +160,12 @@ body{
 	height:2em;
 	width:2em;
 }
-.contentdiv{
-	background-color:rgba(244, 244, 244,1);
-	border:1px solid black; 
+.contentdiv{ 
 	border-radius: 5px;
 	color: black;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Castoro', sans-serif;
 	padding-bottom: 1rem;
+	font-size: 1.2rem;
 }
 .contentdivheader{
 	font-family: 'Cabin', sans-serif;
