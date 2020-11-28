@@ -4,7 +4,19 @@
     font-weight:bold;
 }
 
-.musicchoose > div > a:hover{
-    font-size:20px;
-    position:absolute;
+.musicbuttons:hover{
+    font-size:1.4rem;
+    cursor: pointer;
+}
+
+#popmusiccontainer{
+
+}
+
+#dancemusiccontainer{
+
+}
+
+.showcontainer{
+    display:none;
 }
