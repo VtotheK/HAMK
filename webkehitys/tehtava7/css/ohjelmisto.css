@@ -1,6 +1,9 @@
+@media screen and (max-width: 722px){
+    .spaces{display:none;}
+    .musicbuttons{font-size: 1.0rem;}
+}
+
 .musicbuttons{
-    font-size: 1.2rem;
-    margin:10px 10px 10px 10px;
     font-weight:bold;
     background-color: red;
 }
