@@ -2,6 +2,7 @@
     font-size: 1.2rem;
     margin:10px 10px 10px 10px;
     font-weight:bold;
+    background-color: red;
 }
 
 .musicbuttons:hover{
@@ -19,4 +20,12 @@
 
 .showcontainer{
     display:none;
+    background-color: red;
+    margin:0 auto;
+    text-align: center;
+}
+
+.showtable{
+    margin-left:auto;
+    margin-right:auto;
 }
