@@ -1,6 +1,9 @@
-@media screen and (max-width: 722px){
+@media screen and (max-width: 767px){
     .spaces{font-size:0.4rem;}
     .musicbuttons{font-size: 1.0rem;}
+    tr{
+        margin-left: 150px;
+    }
 }
 
 .musicbuttons{
@@ -9,16 +12,13 @@
 }
 
 .musicbuttons:hover{
-    font-size:1.4rem;
+    font-size:1.2rem;
     cursor: pointer;
 }
 
-#popmusiccontainer{
-
-}
-
-#dancemusiccontainer{
-
+.musicchoose{
+    margin:0 auto;
+    background-color: green;
 }
 
 .showcontainer{
@@ -28,10 +28,17 @@
 }
 
 .showtable{
-    border:1px solid black;
+    display: inline-table;
+    margin-bottom:20px;
 }
 
 .tabledesc{
     text-align: center;
-    border:1px solid black;
+    border-left:1px solid black;
+    border-top:1px solid black;
+}
+
+.songnumbers{
+    min-width:2rem;
+    background-color: white;
 }

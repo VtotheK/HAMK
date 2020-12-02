@@ -1,4 +1,4 @@
-var dancesets = {
+var danceset = {
                 "Setti 1":[
                 "Åsele valssi / Metsäkukkia",
                 "Hanurin kutsu",
@@ -94,7 +94,7 @@ var dancesets = {
                 "Kulkurin masurkka"
                 ],
 
-                "Setti 8":["Kulkurin kaiho",
+                "Setti 7":["Kulkurin kaiho",
                 "Kalastaja Eemelin valssi",
                 "Tiikerihai",
                 "Pihapihlaja",
@@ -110,7 +110,7 @@ var dancesets = {
                 "Käyn uudelleen eiliseen"
                 ],
 
-                "Setti 9":["Tammerkoski",
+                "Setti 8":["Tammerkoski",
                 "Yö Altailla",
                 "Suhmuran Santra",
                 "Kerran saavun satamaan",

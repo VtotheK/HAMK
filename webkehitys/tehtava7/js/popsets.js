@@ -1,4 +1,4 @@
-var popsets = {
+var popset = {
                 "Setti 1":["All my loving",
                 "Eight days a week",
                 "I saw her standing there",

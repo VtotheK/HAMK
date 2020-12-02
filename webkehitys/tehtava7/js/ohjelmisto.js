@@ -1,11 +1,12 @@
-function poptables(){
+function populatetables(id,set){
     var maindiv = document.createElement("div");
-    maindiv.id = "popmusiccontainer"
+    maindiv.id = id
     document.body.appendChild(maindiv);
     maindiv.className = "row col-12 showcontainer";
-    for(i = 1; i < Object.keys(popsets).length + 1; i++)
+    for(i = 1; i < Object.keys(set).length + 1; i++)
     {
         let tbl = document.createElement("table");
+        tbl.className = "showtable col-md-6 col-sm-12 col-lg-6 col-xl-4";
         let col1 = document.createElement("col");
         let col2 = document.createElement("col");
         col1.style.width = "5%";
@@ -16,39 +17,64 @@ function poptables(){
         let header = document.createElement("th");
         tbl.appendChild(row);
         header.colSpan="2";
-        header.innerHTML="Setti " + i;
+        header.className="tabledesc";
         row.appendChild(header);
         let row2 = document.createElement("tr");
         let head1 = document.createElement("th");
         let head2 = document.createElement("th");
-        header.innerHTML="Kappale";
+        header.innerHTML="Setti " + i;
         row2.appendChild(head1).appendChild(head2);
         tbl.appendChild(row2)
-        for(j = 1; j<Object.keys(popsets).length + 1; j++){
-            let newrow = document.createElement("tr");
-            let data = popsets["Setti " + j];
-            for(k = 0; k<data.length;k++)
-            {
-                let tbldata1 = document.createElement("td");
-                tbldata1.innerHTML = j;
-                let tbldata2 = document.createElement("td");
-                tbldata2.innerHTML = data[k];
-                newrow.appendChild(tbldata1);
-                newrow.appendChild(tbldata2);
-                tbl.appendChild(newrow)
-            }
+        let data = set["Setti " + i];
+        for(k = 0; k<data.length;k++)
+        {
+            let r = document.createElement("tr");
+            let tbldata1 = document.createElement("td");
+            tbldata1.className="songnumbers";
+            tbldata1.innerHTML = k+1;
+            let tbldata2 = document.createElement("td");
+            tbldata2.innerHTML = data[k];
+            r.appendChild(tbldata1);
+            r.appendChild(tbldata2);
+            tbl.appendChild(r)
         }
         maindiv.appendChild(tbl);
     }
 }
 
-function populatetables(){
-    poptables();
+function deactivatebuttons(lbl1, lbl2){
+    document.getElementById(lbl1).style.fontSize = "1rem";
+    document.getElementById(lbl2).style.fontSize = "1rem";
+}
+
+function activatebutton(label){
+    document.getElementById(label).style.fontSize = "1.2rem";
+}
+
+function showset(arg){
+    switch(arg){
+        case "popmusic":
+            deactivatebuttons("showDanceMusicButton","showBackgroundMusicButton");
+            activatebutton("showPopMusicButton");
+            break;
+        case "dancemusic":
+            deactivatebuttons("showPopMusicButton","showBackgroundMusicButton");
+            activatebutton("showDanceMusicButton");
+            break;
+        case "backgroundmusic":
+            deactivatebuttons("showPopMusicButton","showDanceMusicButton");
+            activatebutton("showBackgroundMusicButton");
+            break;
+        default:
+            console.log("LOL WAT");
+    }
 }
 
 $(document).ready(function() { 
 
-    populatetables();
+    populatetables("popmusiccontainer",popset);
+    populatetables("dancemusiccontainer",danceset);
+    populatetables("backgroundmusiccontainer",backgroundset);
 
     $("#showPopMusicButton").click(function(){
         $("#dancemusiccontainer:visible").hide();
@@ -66,4 +92,7 @@ $(document).ready(function() {
         $("#popmusiccontainer:visible").hide();
         $("#backgroundmusiccontainer:hidden").show();
     })
+
+
+
 })

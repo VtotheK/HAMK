@@ -1,4 +1,4 @@
-var backgroundsets = {
+var backgroundset = {
                         "Setti 1":["Fly me to the moon",
                         "Bye Bye Blackbird",
                         "C'est si bon",

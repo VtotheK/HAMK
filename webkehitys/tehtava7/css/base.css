@@ -93,8 +93,8 @@ body{
 }
 	.navbarimg{height:50px;}
 	body{
-	border-left:10rem solid white;
-	border-right:10rem  solid white;
+	border-left:7rem solid white;
+	border-right:7rem  solid white;
 	border-bottom:2rem solid white;
 	}
 
@@ -103,8 +103,8 @@ body{
 
 	.navbarimg{height:60px;}	
 	body{
-		border-left:15rem solid white;
-		border-right:15rem  solid white;
+		border-left:10rem solid white;
+		border-right:10rem  solid white;
 		border-bottom:2rem solid white;
 		}
 }
