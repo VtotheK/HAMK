@@ -123,4 +123,5 @@ var danceset = {
                 "Päivin öin",
                 "Kaksi ruusua",
                 "Vesivehmaan jenkka",
-                "Rempallaan"]}
+                "Rempallaan"]
+            }

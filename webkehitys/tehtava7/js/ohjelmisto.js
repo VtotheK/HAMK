@@ -43,12 +43,17 @@ function populatetables(id,set){
 }
 
 function deactivatebuttons(lbl1, lbl2){
-    document.getElementById(lbl1).style.fontSize = "1rem";
-    document.getElementById(lbl2).style.fontSize = "1rem";
+    var lbl1 = document.getElementById(lbl1);
+    var lbl2 = document.getElementById(lbl2);
+    lbl1.style.fontSize = "1rem";
+    lbl2.style.fontSize = "1rem";
+    lbl1.style.color = "black";
+    lbl2.style.color = "black";
 }
 
 function activatebutton(label){
     document.getElementById(label).style.fontSize = "1.2rem";
+    document.getElementById(label).style.color = "red";
 }
 
 function showset(arg){

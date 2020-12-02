@@ -1,14 +1,32 @@
+@media screen and (max-width:550px){
+    .musicbuttons:hover{
+        font-size: 1rem;
+    }
+}
+
 @media screen and (max-width: 767px){
-    .spaces{font-size:0.4rem;}
+    .spaces{font-size:0.1rem;}
     .musicbuttons{font-size: 1.0rem;}
     tr{
         margin-left: 150px;
     }
 }
 
+@media screen and (min-width:992px){
+    #mainNav{
+        margin-left:100px;
+    }
+}
+
+@media screen and (max-width:1110px){
+    body{
+        border-left: 10em;
+        border-right: 10em;
+    }
+}
+
 .musicbuttons{
     font-weight:bold;
-    background-color: red;
 }
 
 .musicbuttons:hover{
@@ -18,27 +36,27 @@
 
 .musicchoose{
     margin:0 auto;
-    background-color: green;
 }
 
 .showcontainer{
     display:none;
-    background-color: red;
     margin:0 auto;
+
 }
 
 .showtable{
     display: inline-table;
     margin-bottom:20px;
+    background-color: rgba(116, 166, 173,0.7);
 }
 
 .tabledesc{
     text-align: center;
     border-left:1px solid black;
+    border-right:1px solid black;
     border-top:1px solid black;
 }
 
 .songnumbers{
     min-width:2rem;
-    background-color: white;
 }
