@@ -27,6 +27,8 @@ html{
 	min-height:100vh;
 	position: relative;
 	background-color: white;
+	overflow-y: scroll;
+
 }
 body{
 	/*background:url("../img/jaritaikatausta.jpg");
@@ -85,9 +87,7 @@ body{
 }
 
 @media screen and (min-width: 992px){
-	.navbar-nav{
-		margin-left: -1em;
-	}
+
 	#collapsedlogo{
 		display:none;
 }
@@ -97,6 +97,10 @@ body{
 	border-right:7rem  solid white;
 	border-bottom:2rem solid white;
 	}
+	.navbandlogouncollapsed{
+		max-height:50px;
+	}
+	
 
 }
 @media screen and (min-width: 1200px){
@@ -109,12 +113,16 @@ body{
 		}
 }
 
+
 @media screen and (max-width:991px){
 	.navbandlogo{
 		max-height:50px;
 		position: absolute;
 		top:5px;
 		left:5px;
+	}
+	.navbandlogouncollapsed{
+		display:none;
 	}
 
 	.navbar-nav{
@@ -192,6 +200,10 @@ body{
 }
 
 .navbandlogo{
+	max-height:50px;
+}
+
+..navbandlogouncollapsed{
 	max-height:50px;
 }
 

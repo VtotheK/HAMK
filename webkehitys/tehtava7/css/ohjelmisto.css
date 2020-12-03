@@ -13,9 +13,7 @@
 }
 
 @media screen and (min-width:992px){
-    #mainNav{
-        margin-left:100px;
-    }
+
 }
 
 @media screen and (max-width:1110px){
@@ -59,4 +57,9 @@
 
 .songnumbers{
     min-width:2rem;
+}
+
+
+.musicchoose{
+    margin-left: -10px;
 }
