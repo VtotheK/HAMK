@@ -5,8 +5,11 @@ function populatetables(id,set){
     maindiv.className = "row col-12 showcontainer";
     for(i = 1; i < Object.keys(set).length + 1; i++)
     {
+        let cont = document.createElement("div");
+        cont.className="con col-md-12 col-sm-12 col-lg-6 col-xl-4";
+
         let tbl = document.createElement("table");
-        tbl.className = "showtable col-md-6 col-sm-12 col-lg-6 col-xl-4";
+        tbl.className = "showtable col-12";
         let col1 = document.createElement("col");
         let col2 = document.createElement("col");
         col1.style.width = "5%";
@@ -38,7 +41,8 @@ function populatetables(id,set){
             r.appendChild(tbldata2);
             tbl.appendChild(r)
         }
-        maindiv.appendChild(tbl);
+        cont.appendChild(tbl);
+        maindiv.appendChild(cont);
     }
 }
 
@@ -52,7 +56,7 @@ function deactivatebuttons(lbl1, lbl2){
 }
 
 function activatebutton(label){
-    document.getElementById(label).style.fontSize = "1.2rem";
+    document.getElementById(label).style.fontSize = "1.4rem";
     document.getElementById(label).style.color = "red";
 }
 

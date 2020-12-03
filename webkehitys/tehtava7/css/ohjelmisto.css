@@ -28,7 +28,7 @@
 }
 
 .musicbuttons:hover{
-    font-size:1.2rem;
+    font-size:1.4rem;
     cursor: pointer;
 }
 
@@ -41,7 +41,9 @@
     margin:0 auto;
 
 }
-
+.con{
+    display: inline-table;
+}
 .showtable{
     display: inline-table;
     margin-bottom:20px;
