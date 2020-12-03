@@ -34,9 +34,9 @@ function populatetables(id,set){
             let r = document.createElement("tr");
             let tbldata1 = document.createElement("td");
             tbldata1.className="songnumbers";
-            tbldata1.innerHTML = k+1;
+            tbldata1.innerHTML = '&nbsp'+'&nbsp'+(k+1).toString();
             let tbldata2 = document.createElement("td");
-            tbldata2.innerHTML = data[k];
+            tbldata2.innerHTML = '&nbsp'+'&nbsp'+data[k].toString();
             r.appendChild(tbldata1);
             r.appendChild(tbldata2);
             tbl.appendChild(r)
@@ -56,7 +56,7 @@ function deactivatebuttons(lbl1, lbl2){
 }
 
 function activatebutton(label){
-    document.getElementById(label).style.fontSize = "1.4rem";
+    document.getElementById(label).style.fontSize = "1.2rem";
     document.getElementById(label).style.color = "red";
 }
 
@@ -75,7 +75,7 @@ function showset(arg){
             activatebutton("showBackgroundMusicButton");
             break;
         default:
-            console.log("LOL WAT");
+            console.log("Can't show musicset");
     }
 }
 

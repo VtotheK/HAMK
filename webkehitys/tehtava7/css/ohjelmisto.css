@@ -1,19 +1,29 @@
-@media screen and (max-width:550px){
-    .musicbuttons:hover{
-        font-size: 1rem;
-    }
-}
-
 @media screen and (max-width: 767px){
-    .spaces{font-size:0.1rem;}
     .musicbuttons{font-size: 1.0rem;}
+    .spaces{
+        display: none;
+    }
     tr{
         margin-left: 150px;
     }
+    .musicbuttons:hover{
+        font-size: 1rem;
+        cursor: pointer;
+    }
+    .buttoncontainers{
+        width: 30px;
+    }
+    .dashes{
+        display: none;
+    }
 }
 
-@media screen and (min-width:992px){
-
+@media screen and (min-width:767px){
+    .musicbuttons:hover{
+        font-size:1.2rem;
+        cursor: pointer;
+        
+    }
 }
 
 @media screen and (max-width:1110px){
@@ -25,29 +35,24 @@
 
 .musicbuttons{
     font-weight:bold;
-}
-
-.musicbuttons:hover{
-    font-size:1.4rem;
-    cursor: pointer;
+    display:inline-block;
 }
 
 .musicchoose{
-    margin:0 auto;
+    margin:0px auto 20px;
 }
 
 .showcontainer{
     display:none;
-    margin:0 auto;
-
+    margin:0px 0px 20px 0px;
 }
 .con{
     display: inline-table;
+    margin-bottom: 20px;
 }
+
 .showtable{
-    display: inline-table;
-    margin-bottom:20px;
-    background-color: rgba(116, 166, 173,0.7);
+    background-color: white;
 }
 
 .tabledesc{
@@ -59,6 +64,13 @@
 
 .songnumbers{
     min-width:2rem;
+}
+
+td{
+    font-family: 'Cabin', sans-serif;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
 }
 
 

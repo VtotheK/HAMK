@@ -1,0 +1,26 @@
+.imageslider{
+    margin:0 auto;
+}
+.carousel{
+    height:60vh;
+}
+.item{
+    position: relative;
+    height: 100%;
+}
+.carousel > .item > img {
+    max-width: 640;
+    height:auto;
+    vertical-align: center;
+  }
+
+  .carousel-inner img {
+    margin: auto;
+    background-size:cover;
+    background-position: center center;
+    
+  }
+
+  .carousel-item{
+      margin-top: 100px;
+  }
