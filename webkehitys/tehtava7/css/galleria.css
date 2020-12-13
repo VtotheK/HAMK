@@ -1,8 +1,10 @@
 .imageslider{
     margin:0 auto;
+    width:650px;
 }
 .carousel{
-    height:60vh;
+    height:100vh;
+    width:700px;
 }
 .item{
     position: relative;
@@ -16,9 +18,9 @@
 
   .carousel-inner img {
     margin: auto;
-    background-size:cover;
+    max-height:640px;
+    width:auto;
     background-position: center center;
-    
   }
 
   .carousel-item{

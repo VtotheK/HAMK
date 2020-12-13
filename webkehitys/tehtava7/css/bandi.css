@@ -1,13 +1,3 @@
-@media screen and (max-width: 100px){
-}
-@media screen and (max-width: 544px){
-}
-@media screen and (max-width: 768px){
-}
-@media screen and (max-width: 992px){
-}
-@media screen and (max-width: 1200px){
-}
 .profilepic{
     float:left;
     margin:5px 0px 10px 5px;
@@ -21,6 +11,7 @@
     padding-bottom: 10px;
 }
 
-.profiledesc{
+.profiledesc-img{
     margin:10px 0px 0px 120px;
 }
+

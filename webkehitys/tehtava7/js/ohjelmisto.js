@@ -7,8 +7,8 @@ function populatetables(id,set){
     {
         let cont = document.createElement("div");
         cont.className="con col-md-12 col-sm-12 col-lg-6 col-xl-4";
-
         let tbl = document.createElement("table");
+        tbl.style.boxShadow ="5px 10px 20px black";
         tbl.className = "showtable col-12";
         let col1 = document.createElement("col");
         let col2 = document.createElement("col");
@@ -57,7 +57,7 @@ function deactivatebuttons(lbl1, lbl2){
 
 function activatebutton(label){
     document.getElementById(label).style.fontSize = "1.2rem";
-    document.getElementById(label).style.color = "red";
+    document.getElementById(label).style.color = "rgb(212, 206, 32)";
 }
 
 function showset(arg){
