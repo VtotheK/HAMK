@@ -10,14 +10,15 @@ namespace Keskiarvo
     {
         static void Main(string[] args)
         {
-            int count,sum = 0;
+            uint count;
+            int sum = 0;
             float avg;
             do
             {
                 Console.Clear();
                 Console.WriteLine("Montako lukua");
             }
-            while (!Int32.TryParse(Console.ReadLine(), out count));
+            while (!UInt32.TryParse(Console.ReadLine(), out count));
 
             for (int i = 0; i < count; i++)
             {
